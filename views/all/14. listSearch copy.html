@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>매장찾기</title>
+  <title>리스트로 매장찾기</title>
 
   <!-- Bootstrap core CSS -->
   <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -48,7 +48,7 @@
         </ul>
 
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="#">로그인</a>
           </li>
           <li class="nav-item">
@@ -71,7 +71,7 @@
       <div id="location">
         <ul class="list-inline">
           <li>매장찾기</li>
-          <li class="last">지도로 찾기</li>
+          <li class="last">리스트로 찾기</li>
         </ul>
       </div>
       <!-- <p class="lead">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p> -->
@@ -102,21 +102,15 @@
       <!-- /. Category -->
 
       <div class="col-md-10 order-md-2">
-        <div class="text-center" id="map-search">
-          <img src="../../image/zxczxc.PNG">
-        </div>
-
-        <hr class="mb-4">
-
         <div>
 
-          <div class="row shopSearch-body">
+          <div class="row listSearch-body">
 
-            <div id="shopSearch-info">
+            <div class="listSearch-info">
 
               <ul class="list-unstyled">
                 <li>매장명</li>
-                <li>준오헤어 신논현점</li>
+                <li><a href="">준오헤어 신논현점</a></li>
               </ul>
 
               <ul class="list-unstyled">
@@ -136,15 +130,57 @@
 
               <ul class="list-unstyled">
                 <li>주차</li>
-                <li>지상 1층 외 넓은 주차장 보유(매장에 있으신 시간에 한해 주차쿠폰 발급</li>
+                <li>지상 1층 외 넓은 주차장 보유(매장에 있으신 시간에 한해 주차쿠폰 발급)</li>
               </ul>
 
             </div>
-            <img src="../../image/shop04.PNG" class="img-responsive rounded" id="img-shopSearch" alt="Responsive image">
-
+            <a href="" class="img-listSearch-location">
+              <img src="../../image/shop04.PNG" class="img-responsive rounded img-listSearch"  alt="Responsive image">
+            </a>
           </div>
-          <hr class="mb-4">
         </div>
+
+        <table class="table table-sm table-hover text-center listSearch">
+          <thead>
+            <td scope="col">No.</td>
+            <td scope="col">매장명</td>
+            <td scope="col">매장 주소</td>
+            <td scope="col">매장 번호</td>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td><a href="">개님살롱</a></td>
+              <td>서울특별시 강남구 역삼동 809번지 2층</td>
+              <td>02.2052.0605</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td><a href="">크린펫</a></td>
+              <td>서울특별시 관악구 남부순환로 1601 (신림동, 2층)</td>
+              <td>02.886.0605</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td><a href="">포인트애견</a></td>
+              <td>서울특별시 강남구 도산대로11길 18 운산빌딩 2층</td>
+              <td>02.517.0605</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td><a href="">강아지삼총사</a></td>
+              <td>서울특별시 서대문구 연세로37, 3층 (창천동)</td>
+              <td>02.325.0605</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td><a href="">몽몽이</a></td>
+              <td>서울특별시 마포구 아현동동 424-10번지</td>
+              <td>02.393.0605</td>
+            </tr>
+
+          </tbody>
+        </table>
 
       </div>
     </div>

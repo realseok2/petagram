@@ -4,6 +4,11 @@ EDIT : HYUN-SU, KIM
 DATE : 2020.08.05 ~
 */
 
+/* a태그 초기화 */
+a:link {text-decoration: none; color: #000000;}
+a:visited {text-decoration: none; color: #000000;}
+a:active {text-decoration: none; color: #000000;}
+a:hover {text-decoration: none; color: blueviolet;} 
 
 /* html */
   /* signin, signinOk, login */
@@ -91,13 +96,11 @@ DATE : 2020.08.05 ~
   /* updateForm-relocation */
   #updateForm-relocation {padding-bottom: 7%;}
 
-
 /* board paging */
 #paging {margin: 0px auto; width: auto;}
 #paging ul {margin: 10px 5px 10px 5px;}
 #paging ul>li{float: left; margin: 0px 8px 0px 8px;}
 #paging ul>li.active{font-size: 14px; font-weight: bold;}
-
 
 /* petBasic */
   /* petAdd */
@@ -106,18 +109,12 @@ DATE : 2020.08.05 ~
   #petAdd #location ul>li:nth-child(2) {margin-left: 20px;}
   #petAdd #location .list-inline {overflow: hidden; margin-top: -3rem;}
 
-
-
-
-
-
   #content-head {margin-bottom: 30px;}
   #content-head h2 {float: left; margin: 42px 0px 5px 0px; font-size: 25px; font-weight: bold; }
   #content-head #location {float: right; margin: 50px 0px 0px 0px; font-size: 12px; }
-  #content-head #location ul>li {float: left; }
-  #content-head #location ul>li:after {content: ">"; margin: 0px 5px 0px 5px;}
-  #content-head #location ul>li.last:after {content: none; }
-
+  #content-head #location ul > li {float: left; }
+  #content-head #location ul > li:after {content: ">"; margin: 0px 5px 0px 5px;}
+  #content-head #location ul > li.last:after {content: none; }
 
   #form-bottom {padding-top: 8%;}
 
@@ -128,12 +125,6 @@ DATE : 2020.08.05 ~
 
   /* storeAdd */
   #storeAdd-center {padding-right: 10%;}
-
-
-
-
-
-
 
 /* petBasic */
   /* carousel slide */
@@ -150,11 +141,12 @@ DATE : 2020.08.05 ~
     width: 500px;
   }
 
-
-
   /* petVisited */
   /* main-image */
   #petImg-Size {width: 400px; height: 400px;}
+
+  /* petInfo-background */
+  #petInfo-background {background-color: #e9e9e9;}
 
   
   /* modal */
@@ -261,26 +253,48 @@ DATE : 2020.08.05 ~
 
   /* 수정 모달 기본 설정*/
   #petVisited-modal1 {width: 50%; height: 100%; float: left;}
-  #petVisited-modal1>ul {padding-left: 5%;}
-  #petVisited-modal1>ul>li {font-size: 13px; text-align: left; padding: 3px 5px 0px 0px;}
-  #petVisited-modal1>ul>li:nth-child(1) {font-weight: bolder; font-size: 15px;}
-  #petVisited-modal1>ul>li:nth-child(1)::before {content: "-";}
-  #petVisited-modal1>ul>li:nth-child(2) {margin-left: 3%; margin-bottom: -3%;}
+  #petVisited-modal1 > ul {padding-left: 5%;}
+  #petVisited-modal1 > ul > li {font-size: 13px; text-align: left; padding: 3px 5px 0px 0px;}
+  #petVisited-modal1 > ul > li:nth-child(1) {font-weight: bolder; font-size: 15px;}
+  #petVisited-modal1 > ul > li:nth-child(1)::before {content: "-";}
+  #petVisited-modal1 > ul > li:nth-child(2) {margin-left: 3%; margin-bottom: -3%;}
   /* 수정 모달 이미지 */
   #img-modal {width: 50%; float: right; margin: 0; padding: 0; border: 0;}
 
-  /* 지도로 매장검색 지도 */
-  #map-search {width: 850px; height: 400px; margin: auto;}
+  /* shopSearch */
+    /* 지도 */
+    /* 지도로 매장검색 정보 기본 설정*/
+    .mapSearch-info {width: 50%; height: 100%; float: left;}
+    .mapSearch-info > ul {padding-left: 11%;}
+    .mapSearch-info > ul >li {font-size: 12px; text-align: left; padding: 3px 5px 0px 0px;}
+    .mapSearch-info > ul >li:nth-child(1) {font-weight: bolder; font-size: 14px;}
+    .mapSearch-info > ul >li:nth-child(1)::before {content: "-";}
+    .mapSearch-info > ul >li:nth-child(2) {margin-left: 3%; margin-bottom: -3%;}
+    
+    /* 지도로 매장검색 지도 */
+    .map-search {width: 850px; height: auto; margin: auto;}
 
-  /* 매장검색 정보 기본 설정*/
-  #shopSearch-info {width: 50%; height: 100%; float: left;}
-  #shopSearch-info>ul {padding-left: 11%;}
-  #shopSearch-info>ul>li {font-size: 12px; text-align: left; padding: 3px 5px 0px 0px;}
-  #shopSearch-info>ul>li:nth-child(1) {font-weight: bolder; font-size: 14px;}
-  #shopSearch-info>ul>li:nth-child(1)::before {content: "-";}
-  #shopSearch-info>ul>li:nth-child(2) {margin-left: 3%; margin-bottom: -3%;}
-  /* 매장검색 이미지 기본설정 */
-  #img-shopSearch {width: auto; height: 243.75px; float: right; margin: 0 0 0 6.75%; padding: 0; border: 0;}
-  
-  
+    /* 지도로 매장검색 매장이미지 기본설정 */
+    .img-mapSearch {width: auto; height: 243.75px; float: right;}
+    .img-mapSearch-location {width: auto; height: auto; margin-left: 6.75%;}    
+    /* 리스트 */
+    /* 리스트로 매장검색 정보 기본 설정*/
+    .listSearch-info {width: 50%; height: 100%; float: left;}
+    .listSearch-info > ul {padding-left: 8.75%;}
+    .listSearch-info > ul > li {font-size: 12px; text-align: left; padding: 3px 5px 0px 0px;}
+    .listSearch-info > ul > li:nth-child(1) {font-weight: bolder; font-size: 14px;}
+    .listSearch-info > ul > li:nth-child(1):before {content: "-";}
+    .listSearch-info > ul > li:nth-child(2) {margin-left: 3%; margin-bottom: -3%;}
+    
+    /* 리스트로 매장검색 지도 */
+    .list-search {width: 850px; height: 400px; margin: auto;}
 
+    /* 리스트로 매장검색 매장이미지 기본설정 */
+    .img-listSearch {width: auto; height: 243.75px; float: right;}
+    .img-listSearch-location {width: auto; height: auto; margin-left: 5%;}
+
+    /* 리스트로 매장검색 테이블 */
+    .listSearch {margin-top: 4.25%; margin-bottom: 3%;}
+    .listSearch > thead {font-size: 15px;}
+    .listSearch > tbody > tr > td {font-size: 14px;}
+    .listSearch > tbody > tr > td:nth-child(3) {text-align: left; padding-left: 14%;}
