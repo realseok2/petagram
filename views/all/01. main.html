@@ -25,7 +25,8 @@
     <div class="container">
       <a class="navbar-brand" href="#"><img src="../../image/lettering-bright.png"></a>
       <!-- small display : menu button -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <!-- normal display : navigation list -->
@@ -59,148 +60,201 @@
   </nav>
   <!-- /.Navigation -->
 
-  
+
   <!-- Page Content # 1 -->
   <!-- ================================여기 부분부터 내용이 달라집니다.================================ -->
   <div class="container">
     <!-- Jumbotron Header -->
-    <header class="jumbotron my-4">
-      <h2 class="display-5">신규 사이트</h1>
+    <header class="jumbotron py-4 mt-5 home-jumbotron">
+      <h4 class="display-5">신규</h4>
     </header>
 
     <!-- Page Features -->
-    <div class="row text-center">
-      <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card h-100">
-          <img class="card-img-top" src="http://placehold.it/500x325" alt="">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
+    <div id="gallery-top" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col">
+              <img class="img-fluid rounded" src="../../image/shop01.PNG" alt="Image 1" />
+            </div>
+
+            <div class="col">
+              <img class="img-fluid rounded" src="../../image/shop02.PNG" alt="Image 2" />
+            </div>
+
+            <div class="col">
+              <img class="img-fluid rounded" src="../../image/shop03.PNG" alt="Image 3" />
+            </div>
+
+            <div class="col">
+              <img class="img-fluid rounded" src="../../image/shop04.PNG" alt="Image 4" />
+            </div>
+
           </div>
         </div>
+
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col">
+              <img class="img-fluid rounded" src="../../image/shop05.PNG" alt="Image 5" />
+            </div>
+
+            <div class="col">
+              <img class="img-fluid rounded" src="../../image/shop06.PNG" alt="Image 6" />
+            </div>
+
+            <div class="col">
+              <img class="img-fluid rounded" src="../../image/shop07.PNG" alt="Image 7" />
+            </div>
+
+            <div class="col">
+              <img class="img-fluid rounded" src="../../image/shop08.PNG" alt="Image 8" />
+            </div>
+
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col">
+              <img class="img-fluid rounded" src="../../image/shop09.PNG" alt="Image 9" />
+            </div>
+
+            <div class="col">
+              <img class="img-fluid rounded" src="../../image/shop10.PNG" alt="Image 10" />
+            </div>
+
+            <div class="col">
+              <img class="img-fluid rounded" src="../../image/shop11.PNG" alt="Image 11" />
+            </div>
+
+            <div class="col">
+              <img class="img-fluid rounded" src="../../image/shop12.PNG" alt="Image 12" />
+            </div>
+
+          </div>
+        </div>
+
       </div>
 
-      <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card h-100">
-          <img class="card-img-top" src="http://placehold.it/500x325" alt="">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
-          </div>
-        </div>
-      </div>
+      <a class="carousel-control-prev" href="#gallery-top" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
 
-      <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card h-100">
-          <img class="card-img-top" src="http://placehold.it/500x325" alt="">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card h-100">
-          <img class="card-img-top" src="http://placehold.it/500x325" alt="">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
-          </div>
-        </div>
-      </div>
+      <a class="carousel-control-next" href="#gallery-top" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
-    <!-- /.row -->
-    
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet" />
+
+
+    <!-- //row -->
+
   </div>
-  <!-- /. Page Content # 1 -->
+  <!-- // Page Content # 1 -->
 
   <!-- Page Content # 2 -->
   <div class="container">
     <!-- Jumbotron Header -->
-    <header class="jumbotron my-4">
-      <h2 class="display-5">인기 사이트</h1>
+    <header class="jumbotron py-3">
+      <h4 class="display-5">인기</h4>
     </header>
 
     <!-- Page Features -->
-    <div class="row text-center">
-      <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card h-100">
-          <img class="card-img-top" src="http://placehold.it/500x325" alt="">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
+    <div id="gallery-bottom" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col">
+              <img class="img-fluid rounded" src="../../image/shop26.PNG" alt="Image 1" />
+            </div>
+
+            <div class="col">
+              <img class="img-fluid rounded" src="../../image/shop25.PNG" alt="Image 2" />
+            </div>
+
+            <div class="col">
+              <img class="img-fluid rounded" src="../../image/shop24.PNG" alt="Image 3" />
+            </div>
+
+            <div class="col">
+              <img class="img-fluid rounded" src="../../image/shop23.PNG" alt="Image 4" />
+            </div>
+
           </div>
         </div>
+
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col">
+              <img class="img-fluid rounded" src="../../image/shop22.PNG" alt="Image 5" />
+            </div>
+
+            <div class="col">
+              <img class="img-fluid rounded" src="../../image/shop21.PNG" alt="Image 6" />
+            </div>
+
+            <div class="col">
+              <img class="img-fluid rounded" src="../../image/shop20.PNG" alt="Image 7" />
+            </div>
+
+            <div class="col">
+              <img class="img-fluid rounded" src="../../image/shop19.PNG" alt="Image 8" />
+            </div>
+
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col">
+              <img class="img-fluid rounded" src="../../image/shop18.PNG" alt="Image 9" />
+            </div>
+
+            <div class="col">
+              <img class="img-fluid rounded" src="../../image/shop17.PNG" alt="Image 10" />
+            </div>
+
+            <div class="col">
+              <img class="img-fluid rounded" src="../../image/shop16.PNG" alt="Image 11" />
+            </div>
+
+            <div class="col">
+              <img class="img-fluid rounded" src="../../image/shop15.PNG" alt="Image 12" />
+            </div>
+
+          </div>
+        </div>
+
       </div>
 
-      <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card h-100">
-          <img class="card-img-top" src="http://placehold.it/500x325" alt="">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
-          </div>
-        </div>
-      </div>
+      <a class="carousel-control-prev" href="#gallery-bottom" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
 
-      <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card h-100">
-          <img class="card-img-top" src="http://placehold.it/500x325" alt="">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card h-100">
-          <img class="card-img-top" src="http://placehold.it/500x325" alt="">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
-          </div>
-        </div>
-      </div>
+      <a class="carousel-control-next" href="#gallery-bottom" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
-    <!-- /.row -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- //row -->
 
   </div>
-  <!-- /.Page Content # 2 -->
+  <!-- //Page Content # 2 -->
   <!-- ================================여기까지가 내용이 바뀌는 부분입니다.================================ -->
-  
+
   <!-- Footer -->
   <footer class="bg-dark">
     <div class="container">
       <p class="m-0 text-left text-white">
         <a class="navbar-brand" href="#"><img src="../../image/lettering-bright.png"></a><br><br>
         <b>페타그램</b>&nbsp;&nbsp;&nbsp;서울특별시 서초구 서초대로 77길 13 401호<br>
-        <b>대표이사</b> : 풀스택A팀&nbsp;&nbsp;&nbsp;<b>사업자등록번호</b> : 000-00-00000&nbsp;&nbsp;&nbsp;<b>고객센터</b> : 02-000-0000&nbsp;&nbsp;&nbsp;<b>이메일</b> : help@petagram.com
+        <b>대표이사</b> : 풀스택A팀&nbsp;&nbsp;&nbsp;<b>사업자등록번호</b> : 000-00-00000&nbsp;&nbsp;&nbsp;<b>고객센터</b> :
+        02-000-0000&nbsp;&nbsp;&nbsp;<b>이메일</b> : help@petagram.com
       </p>
     </div>
   </footer>
@@ -209,6 +263,15 @@
   <!-- Bootstrap core JavaScript -->
   <script src="../../vendor/jquery/jquery.min.js"></script>
   <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+  <script>
+    var timer = setInterval(function () {
+      $('#nextButton').trigger('click');
+    }, 30000000)
+  </script>
 </body>
 
 </html>
