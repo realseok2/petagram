@@ -64,7 +64,7 @@ a:hover {text-decoration: none; color: blueviolet;}
   .slide {margin-bottom: 4%; margin-top: 4%;}
 
   /* carousel img size & hover cursor */
-  .img-fluide {width: 400px; height: auto;}
+  .img-fluide {width: 300px; height: 200px;}
   .pointer-cursor {cursor: pointer;}
 
   /* main-modal */
@@ -401,8 +401,11 @@ a:hover {text-decoration: none; color: blueviolet;}
   /* petSupplies-img 전체 이미지 관련*/
   .petSupplies-img > div > img {width: 555px; height: 555px;}
   .petSupplies-img > div:nth-child(2) {padding-left: 0;}
-
   .petSupplies-storeImg {width: 130px; height: 130px;}
+  .petSupplies-img > div > .snip1273 {max-width: 555px; height: 555px;}
+  .petSupplies-img > div > figure > img {width: 555px; height: 555px;}
+  .petSupplies-img > div > figure > figcaption {padding-top: 65%;}
+  .petSupplies-img > div > figure > figcaption > div > button {width: 20px; height: 20px;margin-top: -70%; margin-right: -3%; background-color: rgba(255, 255, 255, 0);}
 
   /* 메인설명 구역 */
   .petSupplies-intro {padding-top: 8%;}
@@ -429,23 +432,3 @@ a:hover {text-decoration: none; color: blueviolet;}
   .petSupplies-storeInfo > ul > li:nth-child(1) {font-weight: bolder; font-size: 14px;}
   .petSupplies-storeInfo > ul > li:nth-child(1):before {content: "-";}
   .petSupplies-storeInfo > ul > li:nth-child(2) {margin-left: 3%; margin-bottom: 7%;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
