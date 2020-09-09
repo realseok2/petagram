@@ -233,6 +233,8 @@ a:hover {text-decoration: none; color: blueviolet;}
   .carousel-caption{position: static; color: black;}
   .d-block{float: left;}
   .imgSize{width: 500px;}
+
+  .petDefaultInfo {margin-left: 16%; margin-top: 10%;}
 /* ---------------------------------------------------------------------------------------------------------------------------------------------- */
 /* petAdd & petVisited */
   /* main-image */

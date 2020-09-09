@@ -120,14 +120,13 @@
                 
                 
                 
-                <div class="carousel-item active">
-                  <!--가로--> <img id="petImg-Size" class="d-block imgSize rounded-circle" src="../../image/4444.jpg" alt="First slide">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>강아지를 등록해 주세요.</h5>
-                    <p>설명</p>
-                    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal1">
-                      수정
-                    </button>
+                <div class="row">
+                  <img id="petImg-Size" class="d-block imgSize rounded-circle"
+                    src="../../image/lolozouai05.jpg"
+                    onerror="this.src='${pageContext.request.contextPath}/assets/image/lolozouai.jpg';">
+                  <div class="text-center petDefaultInfo">
+                    <div><strong>등록된 반려견이 없습니다.</strong></div>
+                    <div>강아지를 등록해 주세요.</div>
                   </div>
                 </div>
 
@@ -163,9 +162,6 @@
                 <div class="carousel-item"> <img id="petImg-Size" class="d-block imgSize rounded-circle" src="../../image/6666.jpg" alt="Third slide">
                   <div class="carousel-caption d-none d-md-block">
 
-
-
-
                     <div class="listSearch-info">
 
                       <ul class="list-unstyled">
@@ -197,8 +193,6 @@
                         수정
                       </button>
                     </div>
-
-
 
                     <!-- Button trigger modal -->
 
